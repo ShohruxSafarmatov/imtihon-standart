@@ -640,6 +640,7 @@ header {
   transform: translateX(95px);
   position: relative;
   margin-bottom: 5rem;
+  width: 500px;
 }
 
 .hero__text {
@@ -675,37 +676,16 @@ header {
   transition: all 0.4s ease;
 }
 
-.hero__line__img {
-  left: -23.3%;
-}
-
-.hero__arrow__img {
-  right: 17%;
-}
-
 .hero__lines__img {
   position: absolute;
   top: 42%;
+  left: -52%;
 }
 
-@media only screen and (max-width: 1070px) {
-  .hero__line__img {
-    left: -25.3%;
-  }
-
-  .hero__arrow__img {
-    right: 12%;
-  }
+.hero__arrow__img {
+  left: 90%;
 }
-@media only screen and (max-width: 1010px) {
-  .hero__line__img {
-    left: -27.3%;
-  }
 
-  .hero__arrow__img {
-    right: 6%;
-  }
-}
 @media only screen and (max-width: 992px) {
   .hero__body {
     text-align: center;
@@ -728,20 +708,77 @@ header {
 
   .hero__texts {
     transform: translateX(0);
+    margin: 0 auto;
   }
 
   .hero__arrow__img {
     width: 447px;
     height: 138px;
-    left: 0;
-    transform: translate(-150px, 165px);
+    left: -50%;
+    top: 150%;
   }
 }
 @media only screen and (max-width: 576px) {
   .hero__arrow__img {
-    width: 447px;
+    width: 500px;
     height: 138px;
-    left: 0;
-    transform: translate(-80%, 165px);
+    left: -66%;
+  }
+}
+#services {
+  padding: 160px 0;
+}
+
+.services__list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.services__item {
+  max-width: 350px;
+  padding: 0 10px;
+  position: relative;
+}
+.services__item::before {
+  content: "";
+  position: absolute;
+  width: 70rem;
+  height: 1.5rem;
+  left: 0;
+  top: 4.8rem;
+  background-color: #E5ECF4;
+  transform: translate(-99%, -160%);
+  z-index: -1;
+}
+
+.services__img {
+  margin-bottom: 40px;
+}
+
+.services__title {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: #495567;
+  margin-bottom: 27px;
+}
+
+.services__text {
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+}
+
+@media only sceen and (max-width: 809px) {
+  .services__title {
+    font-size: 22px;
+    line-height: 26px;
   }
 }/*# sourceMappingURL=main.css.map */

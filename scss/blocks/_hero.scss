@@ -15,6 +15,7 @@
   transform: translateX(95px);
   position: relative;
   margin-bottom: 5rem;
+  width: 500px;
 }
 .hero__text{
   @include hero__text;
@@ -26,35 +27,18 @@
   z-index: 1;
 }
 
-.hero__line__img{
-  left: -23.3%;
-}
-.hero__arrow__img{
-  right: 17%;
-}
+
 .hero__lines__img{
   position: absolute;
   top: 42%;
+  left: -52%;
+}
+
+.hero__arrow__img{
+  left: 90%;
 }
 
 
-@media only screen and (max-width:1070px) {
-  .hero__line__img{
-    left: -25.3%;
-  }
-  .hero__arrow__img{
-    right: 12%;
-  }
-}
-
-@media only screen and (max-width:1010px) {
-  .hero__line__img{
-    left: -27.3%;
-  }
-  .hero__arrow__img{
-    right: 6%;
-  }
-}
 
 
 @media only screen and (max-width:992px) {
@@ -78,21 +62,21 @@
   }
   .hero__texts{
     transform: translateX(0);
+    margin: 0 auto;
   }  
-  .hero__arrow__img{
+  .hero__arrow__img {
     width: 447px;
     height: 138px;
-    left: 0;
-    transform: translate(-150px, 165px);
-   }
+    left: -50%;
+    top: 150%;
   }
+}
 
-  @media only screen and (max-width:576px) {
-
-    .hero__arrow__img{
-      width: 447px;
-      height: 138px;
-      left: 0;
-      transform: translate(-80%, 165px);
-     }
+@media only screen and (max-width:576px) {
+  
+  .hero__arrow__img {
+    width: 500px;
+    height: 138px;
+    left: -66%;
   }
+}

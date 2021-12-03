@@ -52,7 +52,7 @@ header {
 
 
 
-.overlay {
+.header__overlay {
   display: none;
   height: 100%;
   width: 0;
@@ -104,7 +104,7 @@ header {
   left: 7px;
   font-size: 60px;
 }
-.open__span{
+.header__open__span{
   display: none;
 }
 @media only screen and (max-width: 768px) {
@@ -128,10 +128,13 @@ header {
 
 
 @media only screen and (max-width: 576px) {
-
-  .overlay{
+  
+  header{
+    padding: 0;
+  }
+  .header__overlay{
     display: block;
-
+    
   }
   .overlay__link {
     font-size: 20px
@@ -139,12 +142,12 @@ header {
   
   .overlay .closebtn {
     font-size: 40px;
-    top: 30px;
+    top: 12px;
     left: 15px;
     color: #FCB72B;
   }
   
-  .open__span {
+  .header__open__span {
     display: block;
     font-size:30px;
     cursor:pointer;
@@ -160,13 +163,13 @@ header {
   }
   .header__bg{
     background: #fff;
-    padding: 35px 10px;  
-    position: relative;    
+    padding: 15px 10px 37px;
+    position: relative; 
   }
-  .header-mobile__link{
+  .header__mobile__link {
     position: absolute;
     left: 35%;
-    width: 85px
+    width: 102px;
   }
   .overlay__btn{
     @include btn;
@@ -180,6 +183,6 @@ header {
     height: 28.56px;
   }
   
-
+  
   
 }

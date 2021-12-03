@@ -27,6 +27,8 @@
   line-height: 56px;
   letter-spacing: -2.5px;
   color: #FFFFFF;
+  max-width: 500px;
+  z-index: 1;
 }
 
 @mixin hero__text {
@@ -36,6 +38,8 @@
   font-size: 15px;
   line-height: 25px;
   color: #FFFFFF;
+  max-width: 405px;
+  z-index: 1;
 }
 
 @mixin services__title {

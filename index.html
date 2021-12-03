@@ -18,15 +18,15 @@
 <body>
   <!-- header start -->
   
-  <header>
+  <header class="header">
     <div class="header__container container">
       
       <div class="header__body">
-        <div id="myNav" class="overlay">
+        <div id="myNav" class="header__overlay overlay">
           <div class="header__bg">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class='bx bx-x'></i></a>
-            <a class="header-mobile__link" href="index.html">
-              <img class="header-site__logo" src="img/header-logo.svg" alt="img">
+            <a class="header__mobile__link" href="index.html">
+              <img class="header__site__logo" src="img/header-logo.svg" alt="img">
             </a>
             
           </div>
@@ -38,13 +38,13 @@
           </div>
           <a class="overlay__btn" href="#">Get Scootin</a>
         </div>
-        <span class="open__span" onclick="openNav()"><i class='bx bx-menu'></i></span>
+        <span class="header__open__span" onclick="openNav()"><i class='bx bx-menu'></i></span>
         
         <div class="header__block">
-          <a class="header-site__link" href="index.html">
-            <img class="header-site__logo" src="img/header-logo.svg" alt="img">
+          <a class="header__site__link" href="index.html">
+            <img class="header__site__logo" src="img/header-logo.svg" alt="img">
           </a>
-          <nav>
+          <nav class="nav">
             <ul class="nav__list">
               <li class="nav__item">
                 <a class="nav__link" href="#">About</a>
@@ -66,15 +66,30 @@
 
   <!-- header end -->
   <!-- hero start -->
-  <section id="hero">
+  <section class="hero" id="hero">
+
     <div class="hero__container container">
       <div class="hero__body">
         <h2 class="hero__title">Scooter sharing made simple</h2>
-
+        <div class="hero__texts">
+          <p class="hero__text">Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient locations in each of our cities. Use our app to locate the nearest bike, unlock it with a tap, and you’re away!</p>
+          <img src="img/line.svg" alt="img" class="hero__line__img hero__lines__img">
+          <img src="img/right-arrow.svg" alt="img" class="hero__arrow__img hero__lines__img">
+        </div>
+        <a class="hero__btn" href="#">Get Scootin</a>
       </div>
+    </div>
+  </section>
+  <section class="services">
+    <div class="services__container container">
+      <ul class="services__list">
+        <li class="services__item"></li>
+        <li class="services__item"></li>
+        <li class="services__item"></li>
+      </ul>
+
 
     </div>
-
   </section>
   
   <script src="js/main.js"></script>

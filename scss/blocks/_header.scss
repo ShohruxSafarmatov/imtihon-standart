@@ -60,7 +60,7 @@ header {
   z-index: 1;
   top: 0px;
   left: 0;
-  background: #333A44;
+  background-color: rgba(0, 0, 0, 0.75);
   overflow-x: hidden;
   transition: 0.5s;
   
@@ -70,11 +70,12 @@ header {
 .overlay__content {
   position: relative;
   top: 0;
-  width: 100%;
+  width: 65%;
+  height: 100vh;
   text-align: left;
   padding-left: 20px;
-  margin-top: 30px;
-  
+  padding-top: 30px;
+  background: #333A44;
 }
 
 .overlay__link {
@@ -127,8 +128,10 @@ header {
 
 
 @media only screen and (max-width: 576px) {
+
   .overlay{
     display: block;
+
   }
   .overlay__link {
     font-size: 20px
@@ -157,10 +160,12 @@ header {
   }
   .header__bg{
     background: #fff;
-    padding: 35px 10px;      
+    padding: 35px 10px;  
+    position: relative;    
   }
   .header-mobile__link{
-    margin-left: 100px;
+    position: absolute;
+    left: 35%;
     width: 85px
   }
   .overlay__btn{
@@ -175,5 +180,6 @@ header {
     height: 28.56px;
   }
   
+
   
 }

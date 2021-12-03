@@ -2,7 +2,7 @@
   background-image: url(/img/hero-img.png);
   background-position: center;
   background-size: cover;
-  padding: 0px 0px 173px;
+  padding: 153px 0px 173px;
   position: relative;
   height: 100%;
   
@@ -73,10 +73,30 @@
 }
 
 @media only screen and (max-width:576px) {
-  
+  #hero{
+    padding-top: 100px;
+  }
   .hero__arrow__img {
     width: 500px;
     height: 138px;
-    left: -66%;
+    left: -105%;
+  }
+  .hero__title{
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .hero__texts{
+    max-width: 311px;
+  }
+  .hero__body{
+    padding-top: 0;
+  }
+}
+@media only screen and (max-width:576px) {
+  .hero__texts{
+    max-width: 210px;
+  }
+  .hero__btn{
+    padding: 14px 39px;
   }
 }

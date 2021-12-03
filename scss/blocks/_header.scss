@@ -138,41 +138,42 @@ header {
     font-size: 40px;
     top: 30px;
     left: 15px;
-    color: #000;  }
-    
-    .open__span {
-      display: block;
-      font-size:30px;
-      cursor:pointer;
-      margin-top: 6px;
-      margin-right: 30px;
-      
-    }
-    .nav__list{
-      display: none;
-    }
-    .header__btn{
-      opacity: 0;
-    }
-    .header__bg{
-      background: #fff;
-      padding: 35px 10px;      
-    }
-    .header-mobile__link{
-      margin-left: 100px;
-      width: 85px
-    }
-    .overlay__btn{
-      @include btn;
-      margin-top: 20px;
-      margin-left: 20px;
-      position: absolute;
-      bottom: 20px;
-    }
-    .header-site__link{
-      width: 107.82px;
-      height: 28.56px;
-    }
-    
+    color: #FCB72B;
+  }
+  
+  .open__span {
+    display: block;
+    font-size:30px;
+    cursor:pointer;
+    margin-top: 6px;
+    margin-right: 30px;
     
   }
+  .nav__list{
+    display: none;
+  }
+  .header__btn{
+    opacity: 0;
+  }
+  .header__bg{
+    background: #fff;
+    padding: 35px 10px;      
+  }
+  .header-mobile__link{
+    margin-left: 100px;
+    width: 85px
+  }
+  .overlay__btn{
+    @include btn;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+    bottom: 20px;
+  }
+  .header-site__link{
+    width: 107.82px;
+    height: 28.56px;
+  }
+  
+  
+}

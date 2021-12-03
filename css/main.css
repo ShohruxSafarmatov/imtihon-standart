@@ -750,6 +750,10 @@ header {
   .hero__btn {
     padding: 14px 39px;
   }
+
+  .hero__arrow__img {
+    left: -110%;
+  }
 }
 #services {
   padding: 160px 0;

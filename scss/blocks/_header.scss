@@ -165,6 +165,7 @@ header {
     .overlay__btn{
       @include btn;
       margin-top: 20px;
+      margin-left: 20px;
       position: absolute;
       bottom: 20px;
     }

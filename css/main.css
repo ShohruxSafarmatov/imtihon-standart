@@ -776,7 +776,7 @@ header {
   color: #939CAA;
 }
 
-@media only sceen and (max-width: 809px) {
+@media only screen and (max-width: 809px) {
   .services__title {
     font-size: 22px;
     line-height: 26px;

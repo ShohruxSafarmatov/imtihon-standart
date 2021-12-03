@@ -31,9 +31,10 @@
 }
 .services__text{
   @include text;
-}
-@media only sceen and (max-width:809px) {
-  .services__title {
+} 
+
+@media only screen and (max-width: 809px) {
+  .services__title{
     font-size: 22px;
     line-height: 26px;
   }
